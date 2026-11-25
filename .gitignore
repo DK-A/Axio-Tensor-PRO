@@ -1,0 +1,28 @@
+﻿# Vivado Simulator Temporary Files
+xsim.dir/
+*.jou
+*.log
+*.pb
+*.wdb
+*.backup.jou
+*.backup.log
+
+# Vivado Implementation / Synthesis Outputs
+*.dcp
+*.rpt
+vivado/build_output/
+vivado/sweep_output/
+.Xil/
+
+# Python caches
+__pycache__/
+*.pyc
+
+# OS specific
+Thumbs.db
+.DS_Store
+
+# Temporary proposal PDFs if not needed in git
+# Keep TECHTONICS_VCONNECT and project reports
+proposal1.pdf
+prp1.pdf
